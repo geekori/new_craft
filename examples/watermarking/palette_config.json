@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "default_output_format": "jpeg",
+  "jpeg_quality": 90,
+  "png_compression": "best_speed",
+  "logging": {
+    "level": "info",
+    "path": "/var/log/pixel-craft.log"
+  },
+  "feature_flags": {
+    "enable_gif_support": true,
+    "enable_experimental_filters": false
+  }
+}
